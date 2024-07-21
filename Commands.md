@@ -8,4 +8,4 @@ kubectl -n webapps describe secret mysecretname
 sudo chmod 666 /var/run/docker.sock
 
 #To delete eks cluster
-kubectl delete cluster --name EKS-1 --regoin ap-south-1
+eksctl delete cluster --name EKS-1 --region ap-south-1
